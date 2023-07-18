@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+
+<AnchorPane prefHeight="373.0" prefWidth="456.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <FontAwesomeIconView fill="WHITE" glyphName="CLOSE" layoutX="422.0" layoutY="67.0" />
+      <TextField layoutX="33.0" layoutY="114.0" prefHeight="33.0" prefWidth="172.0" style="-fx-background-color: #f2f2f2;" />
+      <Label layoutX="33.0" layoutY="95.0" text="GoodsID" textFill="#5e5e5e">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="33.0" layoutY="209.0" prefHeight="33.0" prefWidth="172.0" style="-fx-background-color: #f2f2f2;" />
+      <Label layoutX="33.0" layoutY="190.0" text="VendorID" textFill="#5e5e5e">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="255.0" layoutY="114.0" prefHeight="33.0" prefWidth="172.0" style="-fx-background-color: #f2f2f2;" />
+      <Label layoutX="255.0" layoutY="95.0" text="Quantity" textFill="#5e5e5e">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font>
+      </Label>
+      <TextField layoutX="255.0" layoutY="209.0" prefHeight="33.0" prefWidth="172.0" style="-fx-background-color: #f2f2f2;" />
+      <Label layoutX="255.0" layoutY="190.0" text="Price" textFill="#5e5e5e">
+         <font>
+            <Font name="Gotham-Bold" size="12.0" />
+         </font>
+      </Label>
+      <Button layoutX="286.0" layoutY="307.0" mnemonicParsing="false" prefHeight="33.0" prefWidth="136.0" style="-fx-background-color: #4599ff;" text="Add Good" textFill="WHITE">
+         <font>
+            <Font name="Gotham-Bold" size="13.0" />
+         </font>
+      </Button>
+      <AnchorPane layoutY="-1.0" prefHeight="41.0" prefWidth="457.0" style="-fx-background-color: #4599ff #4599ff;">
+         <children>
+            <Label layoutX="25.0" layoutY="12.0" text="ADD GOODS" textFill="WHITE">
+               <font>
+                  <Font name="Gotham-Bold" size="15.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

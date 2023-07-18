@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Struct-Inventory-main/Struct-Inventory.iml" filepath="$PROJECT_DIR$/Struct-Inventory-main/Struct-Inventory.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/Struct-Inventory-main.iml" filepath="$PROJECT_DIR$/.idea/Struct-Inventory-main.iml" />
+    </modules>
+  </component>
+</project>

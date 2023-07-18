@@ -1,0 +1,11 @@
+.root {
+    -fx-background-color: #fff;
+}
+
+ button {
+    -fx-position: absolute;
+    -fx-left: 895px;
+    -fx-top: 629px;
+    -fx-background: #72B8F3;
+    -fx-border-radius: 8px;
+}
